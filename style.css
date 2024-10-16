@@ -457,6 +457,14 @@ body::-webkit-scrollbar{
     justify-content: center;
     
 }
+#bg2 div .under{
+    background-color: #b59b30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    width: 90px;
+}
 
 #bg2 h1 {
     color: #ffffff;
@@ -473,7 +481,7 @@ body::-webkit-scrollbar{
     /* padding: 15px 20px; */
 }
 #footer img{
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 #footer #navbar2{
@@ -481,7 +489,7 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    margin-left: 55px;
+    margin-left: 70px;
     margin-top: 30px;
 }
 
@@ -501,4 +509,17 @@ body::-webkit-scrollbar{
 
 #footer #navbar2 li a:hover {
     color: rgb(187, 179, 147);
+}
+#footer .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+#footer .copyright p{
+    color: #565656;
+    font-size: small;
 }
